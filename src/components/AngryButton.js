@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function AngryButton() {
+function AngryButton(props) {
+  const [anger, setAnger] = useState();
   return (
     <button className="AngryButton">
       {/* If you have not reached maximum */}<span>Don't click me too much! </span>
