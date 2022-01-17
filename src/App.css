@@ -14,6 +14,13 @@
   color: white;
 }
 
+.App.dark,
+.App.dark button {
+  background: #222;
+  border-color: white;
+  color: white;
+}
+
 section {
   height: 100%;
   display: flex;
