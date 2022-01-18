@@ -15,13 +15,12 @@ function App() {
     <div className={`App ${dark}`}>
 
       <h1>Fancy Buttons!</h1>
-      <section>
 
+      <section>
         <AngryButton />
         <CounterButton />
         <LightSwitchButton light={light} switchLight={switchLight} />
         <TextRepeatButton />
-
       </section>
 
     </div >
